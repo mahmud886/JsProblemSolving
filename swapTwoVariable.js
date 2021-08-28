@@ -41,3 +41,32 @@ let y = 10;
 
 console.log(`The value after swap ${x}`);
 console.log(`The value after swap ${y}`);
+
+/**
+ * Example 3: Using Arithmetic Operators
+ */
+
+let i = 5;
+let j = 9;
+
+i = i + j; // 5 + 9 = 14
+j = i - j; // 14 - 9 = 5
+i = i - j; // 14 - 5 = 9
+
+console.log(`The value after swap ${i}`); // 9
+console.log(`The value after swap ${j}`); // 5
+
+/**
+ * Example 4: Using Bitwise XOR operator
+ */
+
+let p = 3;
+let q = 9;
+
+// XOR Operator
+p = p ^ q;
+q = p ^ q;
+p = p ^ q;
+
+console.log(`The value after swap ${p}`); // 9
+console.log(`The value after swap ${q}`); // 3
