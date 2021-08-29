@@ -19,7 +19,7 @@ console.log(`Total Fual Price: ${totalFualPrice} Taka`);
 console.log(`Kilometer Per Liter: ${kpl} kpl`);
 
 /** Output: 
- * Distance 900 km
+ *  Distance 900 km
     Fual Capacity: 12 Taka
     Fual Price Per Liter: 88.75 liter
     Total Fual Price: 1065 Taka
